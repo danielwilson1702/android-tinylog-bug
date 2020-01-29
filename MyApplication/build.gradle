@@ -21,10 +21,6 @@ allprojects {
         jcenter()
         mavenCentral()
         maven { url 'https://nexus.poynt.com/content/repositories/releases' }
-        maven {
-            url "https://jitpack.io"
-            credentials { username authToken  }
-        }
     }
 }
 
